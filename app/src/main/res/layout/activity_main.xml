@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#972D2D"
+    android:orientation="horizontal"
+    android:theme="@style/Base.Theme.Mylab12"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/capture_media_btn"
+
+        android:layout_width="10dp"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:background="@color/design_default_color_error"
+        android:gravity="center"
+        android:text="Camera"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/open_gallery_btn"
+        style="@style/Base.CardView"
+        android:layout_width="2dp"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:background="@color/design_default_color_error"
+        android:gravity="center"
+        android:text="Gallery"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/capture_vio_btn"
+        style="@style/Base.CardView"
+        android:layout_width="1dp"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:background="@color/design_default_color_background"
+        android:gravity="center"
+        android:text="Videos"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/show_location_btn"
+        style="@style/Base.CardView"
+        android:layout_width="1dp"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Location"
+        android:textSize="10dp" />
+</LinearLayout>
